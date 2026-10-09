@@ -1,0 +1,18 @@
+{
+  "grammar": "specifications/DEEPML_SPECIALIZED_GRAMMAR.ebnf",
+  "status": "incomplete_specification",
+  "undefined_references": [
+    "boolean",
+    "constraintDecl",
+    "digit",
+    "graphDecl",
+    "letter",
+    "number",
+    "schemaDecl",
+    "statement",
+    "string",
+    "tensorDecl"
+  ],
+  "editorial_extension_reachable_from_program": false,
+  "authority": "Static production-reference inspection only; no syntax or semantic conformance claim."
+}

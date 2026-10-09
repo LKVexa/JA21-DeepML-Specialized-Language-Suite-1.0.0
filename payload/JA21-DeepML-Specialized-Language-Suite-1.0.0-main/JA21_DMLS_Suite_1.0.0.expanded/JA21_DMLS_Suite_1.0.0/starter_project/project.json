@@ -1,0 +1,19 @@
+{
+  "name": "JA21 DeepML Specialized Starter",
+  "language": "deepml.specialized",
+  "language_version": "0.3",
+  "entrypoint": "main.deepml",
+  "policies": [
+    "deterministic",
+    "no_network"
+  ],
+  "expected_evidence": [
+    "AST",
+    "unit and schema validation",
+    "semantic hash",
+    "operator identities",
+    "R12",
+    "MCRT",
+    "runtime replay trace"
+  ]
+}

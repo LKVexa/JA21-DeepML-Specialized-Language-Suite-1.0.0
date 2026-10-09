@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01130
+policy deterministic
+policy no_network
+domain physics {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[9,10]
+  operator inverse_dynamics(x) -> Tensor pure deterministic
+  calibration C01130 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 330 }
+  validate x with [inverse_dynamics, C01130, PhysicalBounds]
+}

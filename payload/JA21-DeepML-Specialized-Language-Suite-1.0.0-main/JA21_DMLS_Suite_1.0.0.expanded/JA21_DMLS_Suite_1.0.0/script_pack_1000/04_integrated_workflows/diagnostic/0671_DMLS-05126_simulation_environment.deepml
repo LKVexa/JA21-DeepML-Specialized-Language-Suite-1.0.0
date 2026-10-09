@@ -1,0 +1,15 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_05126
+policy deterministic
+policy no_network
+domain workflow_2 {
+  graph DomainGraph05126 {
+    science = scientific_pipeline(dataset="local:05126")
+    portfolio = portfolio_risk(science, currency=USD)
+    simulation = simulation_environment(portfolio, steps=726)
+    graphics = graphics_pipeline(simulation)
+    robot = robotics_control(graphics, actuation=declaration_only)
+  }
+  package hybrid DomainGraph05126 as "hybrid_05126.msslb"
+}
+assert domain.semantic_hash == "invalid-05126"

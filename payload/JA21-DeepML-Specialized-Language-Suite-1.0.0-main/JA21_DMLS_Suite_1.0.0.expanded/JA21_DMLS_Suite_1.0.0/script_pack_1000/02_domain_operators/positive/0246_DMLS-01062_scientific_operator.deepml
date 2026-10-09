@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01062
+policy deterministic
+policy no_network
+domain robotics {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[9,8]
+  operator integrate(x) -> Tensor pure deterministic
+  calibration C01062 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 262 }
+  validate x with [integrate, C01062, PhysicalBounds]
+}

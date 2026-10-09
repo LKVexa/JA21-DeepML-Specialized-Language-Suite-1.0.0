@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "authority": "schema, hashes, standalone policy, metadata qualification and master/shard equality only",
+  "native_language_conformance": "not_tested",
+  "profile": "deepml.specialized",
+  "unique_master_records": 10000,
+  "datasets": [
+    {
+      "path": "corpus/technical/deepml_specialized_technical_corpus_10000.jsonl.gz",
+      "records": 10000,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_01.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_02.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_03.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_04.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_05.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_06.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_07.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_08.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_09.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_10.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_11.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_12.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_13.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_14.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_15.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_16.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_17.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_18.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_19.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    },
+    {
+      "path": "corpus/technical/specialized_20.jsonl.gz",
+      "records": 500,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    }
+  ],
+  "failures": [],
+  "validator_engine": {
+    "package": "jsonschema",
+    "version": "4.25.1",
+    "draft": "2020-12",
+    "external_references": "refused"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "profile": "JA21.Specialized.Publication.1.0",
+  "surfaces": {
+    "reading": "ivory",
+    "code": "soft_obsidian",
+    "evidence": "mist",
+    "warning": "pale_copper"
+  },
+  "accents": {
+    "domain": "cobalt",
+    "positive": "jade",
+    "diagnostic": "crimson",
+    "provenance": "copper",
+    "r12_mcrt": "violet"
+  },
+  "spacing": {
+    "micro": 4,
+    "small": 8,
+    "medium": 16,
+    "large": 28,
+    "section": 48
+  },
+  "typography": {
+    "display": "JA21 institutional display",
+    "body": "JA21 readable body",
+    "code": "JA21 monospaced"
+  },
+  "constraints": [
+    "airgap_safe",
+    "no_remote_assets",
+    "printable",
+    "high_contrast",
+    "windows_safe_paths"
+  ]
+}

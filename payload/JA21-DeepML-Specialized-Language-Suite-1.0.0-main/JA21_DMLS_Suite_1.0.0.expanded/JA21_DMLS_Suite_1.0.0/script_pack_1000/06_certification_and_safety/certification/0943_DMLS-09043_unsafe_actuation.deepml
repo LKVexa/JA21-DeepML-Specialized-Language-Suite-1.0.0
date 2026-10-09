@@ -1,0 +1,6 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_09043
+policy deterministic
+policy no_network
+domain invalid_6 { robot.actuate(force=unbounded, authorization=none) }
+certify domain invalid_6 profile strict

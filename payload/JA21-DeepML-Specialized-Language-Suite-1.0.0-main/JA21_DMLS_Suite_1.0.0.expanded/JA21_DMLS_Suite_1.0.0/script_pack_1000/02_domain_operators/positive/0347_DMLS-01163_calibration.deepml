@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01163
+policy deterministic
+policy no_network
+domain graphics {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[8,10]
+  operator calibrate(x) -> Tensor pure deterministic
+  calibration C01163 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 363 }
+  validate x with [calibrate, C01163, PhysicalBounds]
+}

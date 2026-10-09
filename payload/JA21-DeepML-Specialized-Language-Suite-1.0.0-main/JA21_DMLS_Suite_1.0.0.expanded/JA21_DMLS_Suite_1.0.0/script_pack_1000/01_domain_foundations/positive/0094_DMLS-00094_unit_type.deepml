@@ -1,0 +1,11 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00094
+policy deterministic
+policy no_network
+domain biology {
+  unit U3 = base("biology")
+  schema Sample00094 { value: f64<U3> timestamp: Time provenance: Hash }
+  tensor observations: f64<U3>[10,8]
+  operator normalize_biology(x: Tensor<U3>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00094 to Tensor<U3>
+}

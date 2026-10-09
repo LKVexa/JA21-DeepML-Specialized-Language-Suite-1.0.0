@@ -1,0 +1,6 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_09065
+policy deterministic
+policy no_network
+domain invalid_0 { constraint Bounds { min: 10 max: 1 } }
+certify domain invalid_0 profile strict

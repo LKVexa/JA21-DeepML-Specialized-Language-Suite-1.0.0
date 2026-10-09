@@ -1,0 +1,30 @@
+deepml specialized 0.3
+module starter.deepml_specialized.local_resilience
+policy deterministic
+policy no_network
+
+domain resilience {
+  unit Temperature = base("kelvin")
+  unit Currency = base("USD")
+
+  schema SensorSample {
+    value: f64<Temperature>
+    timestamp: Time
+    provenance: Hash
+  }
+
+  tensor observations: f64<Temperature>[24,4]
+  operator calibrate(x: Tensor<Temperature>) -> Tensor<Temperature> pure
+  adapter SampleToTensor from SensorSample to Tensor<Temperature>
+
+  graph LocalResilience {
+    state = scientific_pipeline(dataset="local:resilience")
+    calibrated = calibrate(state)
+    risk = portfolio_risk(calibrated, currency=USD, horizon=30d)
+    simulation = simulation_environment(risk, steps=120)
+    report = graphics_pipeline(simulation)
+    control = robotics_control(report, actuation=declaration_only)
+  }
+
+  package hybrid LocalResilience as "local_resilience.msslb"
+}

@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00416
+policy deterministic
+policy no_network
+domain finance {
+  unit U0 = base("finance")
+  schema Sample00416 { value: f64<U0> timestamp: Time provenance: Hash }
+  tensor observations: f64<U0>[9,11]
+  operator normalize_finance(x: Tensor<U0>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00416 to Tensor<U0>
+}
+assert domain.semantic_hash == "invalid-00416"

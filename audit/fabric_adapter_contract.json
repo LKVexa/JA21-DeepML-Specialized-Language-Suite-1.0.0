@@ -1,0 +1,17 @@
+{
+  "profile": "deepml.specialized",
+  "proposed_contribution": "Domain units, adapters and validation constraints",
+  "reuse_boundary": "Units and precision must extend a checked base profile.",
+  "source_archive_sha256": "6d32c3c72dff37def3e0c7fd359a23e2e230d36f2b615809f7e89bc94bec5fcc",
+  "source_evidence_paths": [
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/reference_source/deepml_specialized_0.3/grammar/grammar.ebnf",
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/reference_source/deepml_specialized_0.3/grammar/grammar_specification.md",
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/reference_source/deepml_specialized_0.3/language_suite_specification.md",
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/specifications/DEEPML_SPECIALIZED_GRAMMAR.ebnf",
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/specifications/GRAMMAR_SPECIFICATION.md",
+    "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/specifications/LANGUAGE_SPECIFICATION_SOURCE.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

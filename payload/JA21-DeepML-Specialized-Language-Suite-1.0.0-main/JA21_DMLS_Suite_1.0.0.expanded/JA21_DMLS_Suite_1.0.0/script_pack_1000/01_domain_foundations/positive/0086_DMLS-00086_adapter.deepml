@@ -1,0 +1,11 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00086
+policy deterministic
+policy no_network
+domain finance {
+  unit U8 = base("finance")
+  schema Sample00086 { value: f64<U8> timestamp: Time provenance: Hash }
+  tensor observations: f64<U8>[2,11]
+  operator normalize_finance(x: Tensor<U8>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00086 to Tensor<U8>
+}

@@ -1,0 +1,13 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01340
+policy deterministic
+policy no_network
+domain physics {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[15,11]
+  operator calibrate(x) -> Tensor pure deterministic
+  calibration C01340 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 540 }
+  validate x with [calibrate, C01340, PhysicalBounds]
+}
+assert domain.semantic_hash == "invalid-01340"

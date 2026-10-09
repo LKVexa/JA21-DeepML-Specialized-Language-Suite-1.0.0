@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_07698
+policy deterministic
+policy no_network
+domain optimized_3 {
+  unit meter = base("length")
+  unit second = base("time")
+  tensor velocity: f64<meter/second>[15,11]
+  graph DomainGraph07698 { a = velocity * 1 b = sparse(a) c = calibrated(b, constant=1.0) }
+  optimize DomainGraph07698 using [unit_propagation, dimensional_simplification, op_specialization, sparse_planning, calibration_folding, target_lowering]
+  lower DomainGraph07698 to DEEPML_SPECIALIZED_R12
+}

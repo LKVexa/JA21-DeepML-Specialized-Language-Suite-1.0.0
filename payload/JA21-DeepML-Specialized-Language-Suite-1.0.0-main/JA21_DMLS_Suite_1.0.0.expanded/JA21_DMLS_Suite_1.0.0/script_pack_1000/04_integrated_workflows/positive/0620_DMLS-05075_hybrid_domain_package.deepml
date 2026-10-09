@@ -1,0 +1,14 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_05075
+policy deterministic
+policy no_network
+domain workflow_0 {
+  graph DomainGraph05075 {
+    science = scientific_pipeline(dataset="local:05075")
+    portfolio = portfolio_risk(science, currency=USD)
+    simulation = simulation_environment(portfolio, steps=675)
+    graphics = graphics_pipeline(simulation)
+    robot = robotics_control(graphics, actuation=declaration_only)
+  }
+  package hybrid DomainGraph05075 as "hybrid_05075.msslb"
+}

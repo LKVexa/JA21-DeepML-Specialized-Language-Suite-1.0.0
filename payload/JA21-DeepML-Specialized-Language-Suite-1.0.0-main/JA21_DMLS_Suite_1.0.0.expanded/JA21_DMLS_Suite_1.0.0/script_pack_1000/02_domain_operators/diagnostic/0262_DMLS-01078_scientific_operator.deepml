@@ -1,0 +1,13 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01078
+policy deterministic
+policy no_network
+domain graphics {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[8,2]
+  operator integrate(x) -> Tensor pure deterministic
+  calibration C01078 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 278 }
+  validate x with [integrate, C01078, PhysicalBounds]
+}
+assert domain.semantic_hash == "invalid-01078"

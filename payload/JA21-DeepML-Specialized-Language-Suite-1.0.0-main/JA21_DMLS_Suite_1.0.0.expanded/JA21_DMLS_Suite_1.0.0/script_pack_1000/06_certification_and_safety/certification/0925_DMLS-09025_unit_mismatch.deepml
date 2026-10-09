@@ -1,0 +1,6 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_09025
+policy deterministic
+policy no_network
+domain invalid_2 { let distance: f64<meter> = 3second }
+certify domain invalid_2 profile strict

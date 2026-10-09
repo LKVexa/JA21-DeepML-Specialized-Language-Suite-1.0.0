@@ -1,0 +1,11 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00017
+policy deterministic
+policy no_network
+domain robotics {
+  unit U4 = base("robotics")
+  schema Sample00017 { value: f64<U4> timestamp: Time provenance: Hash }
+  tensor observations: f64<U4>[1,8]
+  operator normalize_robotics(x: Tensor<U4>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00017 to Tensor<U4>
+}

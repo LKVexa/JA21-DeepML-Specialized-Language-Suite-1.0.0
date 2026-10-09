@@ -1,0 +1,11 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00103
+policy deterministic
+policy no_network
+domain graphics {
+  unit U12 = base("graphics")
+  schema Sample00103 { value: f64<U12> timestamp: Time provenance: Hash }
+  tensor observations: f64<U12>[2,6]
+  operator normalize_graphics(x: Tensor<U12>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00103 to Tensor<U12>
+}

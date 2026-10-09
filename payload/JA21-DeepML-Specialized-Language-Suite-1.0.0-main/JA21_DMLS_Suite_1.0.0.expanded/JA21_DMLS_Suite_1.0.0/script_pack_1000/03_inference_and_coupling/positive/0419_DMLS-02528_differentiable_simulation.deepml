@@ -1,0 +1,16 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_02528
+policy deterministic
+policy no_network
+domain hybrid_8 {
+  import physics as P
+  import finance as F
+  import robotics as R
+  graph DomainGraph02528 {
+    state = P.differentiable_simulation(sensor_stream(provenance=sha256("2528")))
+    risk = F.risk_model(state, horizon=9d)
+    control = R.sensor_fusion(state, risk)
+    output = domain_infer(control)
+  }
+  custom kernel HybridKernel hash sha256("kernel:02528") deterministic
+}

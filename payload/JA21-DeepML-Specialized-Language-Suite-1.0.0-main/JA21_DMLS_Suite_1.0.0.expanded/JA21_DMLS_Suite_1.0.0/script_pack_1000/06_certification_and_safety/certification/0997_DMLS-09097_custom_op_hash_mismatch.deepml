@@ -1,0 +1,6 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_09097
+policy deterministic
+policy no_network
+domain invalid_4 { custom kernel K hash "expected" actual_hash "different" }
+certify domain invalid_4 profile strict

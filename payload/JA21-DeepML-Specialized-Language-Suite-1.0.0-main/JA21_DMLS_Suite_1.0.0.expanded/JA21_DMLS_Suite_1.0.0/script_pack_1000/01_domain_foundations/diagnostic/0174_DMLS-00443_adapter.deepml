@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00443
+policy deterministic
+policy no_network
+domain graphics {
+  unit U1 = base("graphics")
+  schema Sample00443 { value: f64<U1> timestamp: Time provenance: Hash }
+  tensor observations: f64<U1>[2,5]
+  operator normalize_graphics(x: Tensor<U1>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00443 to Tensor<U1>
+}
+assert domain.semantic_hash == "invalid-00443"

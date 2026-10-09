@@ -1,0 +1,11 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_00140
+policy deterministic
+policy no_network
+domain physics {
+  unit U10 = base("physics")
+  schema Sample00140 { value: f64<U10> timestamp: Time provenance: Hash }
+  tensor observations: f64<U10>[5,10]
+  operator normalize_physics(x: Tensor<U10>) -> Tensor<Dimensionless> pure
+  adapter SampleToTensor from Sample00140 to Tensor<U10>
+}

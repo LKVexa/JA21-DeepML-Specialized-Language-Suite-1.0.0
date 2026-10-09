@@ -1,0 +1,212 @@
+[
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/deepml_specialized_technical_corpus_10000.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "eb44d2aab02f175aa4a60db871eb58dcbe5fa1af34ab6809e1c5d458f8ff0c7a",
+    "updated_sha256": "05b4ff43fee454859b61600db7b4515525d95840fa292706913c1eea07b101f3"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_01.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "f709bec48ea6270d3625caa93bf2cb47e285aa392e3b0034de50078fba3c543c",
+    "updated_sha256": "a84139fb4adf9346cb786b6a5195ed599b54d3bc78c1694674984dd81c522577"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_02.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "e2a2c5565b33a59972e89cfe662874899eb06157fc7a130749f6e300381910bc",
+    "updated_sha256": "2307724671543545e48aae94b1415c74ce5e30c5a9892b715c1ed3a8607b598f"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_03.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "9756f8130fc151e5ee2a6f24d8928307d77820ac65d27c715c5fa58b870ff29c",
+    "updated_sha256": "ce9c8b5b32cbb9a6a94d33cb9a84957e70a7836e86a3cfab12656d383d7be65d"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_04.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "1b631ce302edd489a56e3ea3883a8a260fd9e92f69f6e7f46b6bff37ffe8b591",
+    "updated_sha256": "99f57ff3e20299cae377e19138fe33bc35847fd52408c503384a88fbf5cf23e1"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_05.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "5889264b9091aafa4f2cc91f28dfd4e333b09c25b307c5bea61420acea102c02",
+    "updated_sha256": "debeb7c107425f883b9b4ee4d2241045cdee4e2d6ea744c8233cd82acd504dc8"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_06.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "6eb3acc3e52bba7ce615c7f26a6663fc9c3974d1b2d257552dadb67b6a022ada",
+    "updated_sha256": "b63956e02abc7f3e73871a4d08d902aaf9a59ecacf7989478a11ed4b1bfd15ef"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_07.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "0a44274a272dcc9ddca94f07c5015a2590e7615a3ff2c28b42eef94f81391cf5",
+    "updated_sha256": "449901e32f05080e4bb2f1c7c7481a1aa3e7d630b596385414a33c2c1d9480aa"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_08.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "f53f1ecc89a0da6b47e571d314fcdbbdec147552647a84c0e14e04d75cec66a9",
+    "updated_sha256": "f4a756b8d61f5c0c848a8f1cca8caf443c019b8b30a0a8ddbf2d5986ef21c13a"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_09.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "c96b95a32dfb966b58c66ee5930650fc6f20073fa003ae1b184701158d409b5d",
+    "updated_sha256": "17aa676e464fc28fead2f7ebad5034951750a43b80a70266a19ad2e5a0b42cc2"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_10.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "cbee2da5696d0555e5ade12131cab49c2d4800d8eb24302240ee2c70c06b0f71",
+    "updated_sha256": "3d17e40f9dae295f230fe9bf684c08573dc96b1297a03d81198a0b925a2482fa"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_11.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "02be6573bbc9d65f19195842ace897d8f7ba1d330d6e7f3fc68fe9004dcf6593",
+    "updated_sha256": "094fcba7c50bda5f804f252eb32528a5c105be5fbeb8494e250d4f0897394d70"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_12.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "2f785622b4f67cf0c6c8594a64096f4d753b1c01e8dbf354b1beeb338620f145",
+    "updated_sha256": "61e916a6a2c29587873665e1e8e153bd0ec5d5abfbf6e49bd415e43266368e1d"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_13.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "16552b133bf87fb4ecfa974007d4e1b8b35a88c9fa55bd2df4e7285323f0276a",
+    "updated_sha256": "949220f2cc5868799bd161bd74b43e16e04e934c8943cec88a3cdafbbe01b239"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_14.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "93f8926b8929463d8ba00558fb0156152e9f9e9180aa98cbe8ac7efa80d1aa7f",
+    "updated_sha256": "05fe72963d633b458758aaf372f2a704594dea56260dea7a1c11705215abe519"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_15.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "275d60ce0a8c6a49076be5f1dd05c8acee46d0c223cb4b7a8d45c359831b0c84",
+    "updated_sha256": "eecff439e1b5c8863117fed7b1256bd29d1be8a5d06fe30ca90cbd9c2419887e"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_16.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "9bc5124bf7602e9d653697cad5d2dc60cd40face460a2f9b8e90c0e3e2dd203c",
+    "updated_sha256": "ef167500b32524a968e0f593f67b84bfe8dd0ea6448b9cf9eb3c9250cab3ccba"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_17.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "36ec6696eb3e326d2d07bd2ce81ee3ba42f97cd18321ab4476402d520107101c",
+    "updated_sha256": "8e82c858ec790534c64f3116e7982ba198cda08c5bf7b11a42d1af96e97dcbcd"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_18.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "b77eeb0535b19e5f97b39c3f021721c814ff6065c707365b27cdeeb4c250965c",
+    "updated_sha256": "fbbffbc2908d45b165f0b94cf1606194bbde2cc6fcf990e0c8c9aa65c4ce68a2"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_19.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "0153f9791617d71e782239988eb34ed9f7ac33dc2d04caf7628a8ba2d8863755",
+    "updated_sha256": "c0878c859b6e4e4218d047263aaf8015785c458352fb7fe79afbb6617b9d541a"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/specialized_20.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "0724c8068193b1e78088130eeff9b2c83f710b3b926f7e1420c999f1f9655abb",
+    "updated_sha256": "5390aadbe0a7811adaac269d9be7fa39d46a8eb1b6625a08e9609e577e5dd260"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/corpus/technical/technical_record.schema.json",
+    "status": "changed",
+    "source_sha256": "4175eeabbb731611bce7fd3c8e0f51a6061a478fdc8fa3a8fc3afd19e403e767",
+    "updated_sha256": "a6d8b92976b9e01ad9d5bbeeabd42b6ff6d7051910bc587e2726bc304c10642b"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/README.md",
+    "status": "changed",
+    "source_sha256": "59892f1487d9fda7f46c03ef9488490c70ff6fc064201b31cbf5df638818a22e",
+    "updated_sha256": "12434a072698eedfd5ffc96e05ff23d3330726e76b502843b7a57b9212c1411a"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/GRAMMAR_AND_EVIDENCE_ERRATA.md",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "c531cc3af6824805a7293147fc7c010f58809256ac8b8b96282e50dfa03d3473"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/grammar_gaps.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d46044d73bede300bcccc880cf38f143acdd7cfc53b71793b6602748cf2569be"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/LEXICAL_COMPLETION_DRAFT.ebnf",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "5d2f9aec0ca5c706dd2447c28d8708df4a58c44a915bdc88c0753cf3c9dcc2a3"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/profile.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "90b02d1d435fabf623734a8580d304a97f00b5f01d4847440f7e5d791a4af582"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/qualification.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "75f2338aa1abfa5575a45d0c187b57f6a8844a0591bc0bd742921c7e4b5e1ea0"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/qualification_summary.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "2b1a3ddbf00d722eb6e122ea07e19d0cf07a5aa3f0eed28ae839179714849a84"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/requirements.txt",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "83979de442b6f367911092c24acdc47cd538c73a550a2e723ba89c8ebe06157d"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/SOURCE_RECORD_PRESERVATION.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "05a5849577941612fc6850a6bbde8da9abaed6bbed30cd7f8dd37110d3bc7e7c"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/test_qualification.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "06924ca4e5d121f56fbdd2b270b5676c61db5f3722edaec7496f6f9c15f102b9"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/TEST_RESULTS.txt",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "74ba2d54286e314fe565868f796abaa61a7289d0e9411266d131396231de5ef1"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/UPGRADE_VALIDATION.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "5532c4d252e0f0e30367a32f4a35759dd113480926b820e9fc3afedd787b05aa"
+  },
+  {
+    "path": "payload/JA21-DeepML-Specialized-Language-Suite-1.0.0-main/JA21_DMLS_Suite_1.0.0.expanded/JA21_DMLS_Suite_1.0.0/upgrades_deepml/validate_upgraded.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "cb467f8aa211c471ab13710aae27044ee8e77273010dcfae10e55a1f21ce7973"
+  }
+]

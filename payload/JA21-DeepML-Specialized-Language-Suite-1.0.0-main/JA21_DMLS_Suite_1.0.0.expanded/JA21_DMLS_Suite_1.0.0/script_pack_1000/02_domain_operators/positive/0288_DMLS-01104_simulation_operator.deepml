@@ -1,0 +1,12 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01104
+policy deterministic
+policy no_network
+domain biology {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[17,6]
+  operator step_simulation(x) -> Tensor pure deterministic
+  calibration C01104 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 304 }
+  validate x with [step_simulation, C01104, PhysicalBounds]
+}

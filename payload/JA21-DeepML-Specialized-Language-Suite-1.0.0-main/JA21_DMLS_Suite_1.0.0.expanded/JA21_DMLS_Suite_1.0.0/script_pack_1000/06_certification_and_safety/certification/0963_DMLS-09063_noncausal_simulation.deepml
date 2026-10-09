@@ -1,0 +1,6 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_09063
+policy deterministic
+policy no_network
+domain invalid_5 { state[t] = state[t+1] + input[t] }
+certify domain invalid_5 profile strict

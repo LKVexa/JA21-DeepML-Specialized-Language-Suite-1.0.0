@@ -1,0 +1,13 @@
+deepml specialized 0.3
+module corpus.deepml_specialized.example_01313
+policy deterministic
+policy no_network
+domain graphics {
+  unit InputUnit = base("input")
+  tensor x: f64<InputUnit>[5,6]
+  operator project_radiance(x) -> Tensor pure deterministic
+  calibration C01313 { method: bounded_least_squares tolerance: 1e-6 }
+  constraint PhysicalBounds { min: 0 max: 513 }
+  validate x with [project_radiance, C01313, PhysicalBounds]
+}
+assert domain.semantic_hash == "invalid-01313"
